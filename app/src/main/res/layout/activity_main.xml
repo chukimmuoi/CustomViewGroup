@@ -23,7 +23,7 @@
     <!--android:layout_height="wrap_content"-->
     <!--app:layout_constraintTop_toBottomOf="@+id/btnDrawn"/>-->
 
-    <com.developers.chukimmuoi.customviewgroup.view.AttributedTallyCounter
+    <com.developers.chukimmuoi.customviewgroup.view.InteractedTallyCounter
         android:layout_width="288dp"
         android:layout_height="288dp"
         android:layout_marginEnd="8dp"
