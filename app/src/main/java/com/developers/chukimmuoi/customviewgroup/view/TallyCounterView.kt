@@ -72,6 +72,8 @@ class TallyCounterView : View, TallyCounter {
     override fun setCount(count: Int) {
         mCount = Math.min(count, MAX_COUNT)
         mDisplayedCount = String.format(Locale.getDefault(), "%04d", count)
+
+        invalidate()
     }
 
     override fun onDraw(canvas: Canvas) {

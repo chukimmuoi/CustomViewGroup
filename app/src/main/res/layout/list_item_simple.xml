@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.developers.chukimmuoi.customviewgroup.view.SimpleListItem
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/list_item_padding_vertical"
+    android:paddingBottom="@dimen/list_item_padding_vertical"
+    android:paddingStart="0dp"
+    android:paddingEnd="@dimen/activity_horizontal_margin"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    tools:ignore="RtlCompat">
+
+    <ImageView
+        android:id="@id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/list_item_icon_margin_start"
+        android:layout_marginEnd="@dimen/list_item_icon_margin_end"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Subhead" />
+
+    <TextView
+        android:id="@id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="?android:attr/textColorSecondary" />
+
+</com.developers.chukimmuoi.customviewgroup.view.SimpleListItem>
